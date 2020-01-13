@@ -1,8 +1,17 @@
 # Deep mind pokerbot for pokerstars and partypoker
 
+Hi,
+I will try to improve the reading of the values. It will no longer be necessary to define coordinates.txt exactly. It is enough a generous range around the value. For this, I have extracted the numbers individually for cv2 as .png. The whole thing I have adapted only for PartyPoker.
+
+
 
 
 Welcome to Nicolas Dickreuter's Python Pokerbot
+
+Please note that the table scraping needs updating as the layouts have 
+changed on both pokerstars and partypoker. Also, to train the bot I have started a new project here:
+https://github.com/dickreuter/neuron_poker. The goal is to train agents by
+playing against each other. Please contribute by creating a new Agent.
 
 ![alt text](https://github.com/dickreuter/Poker/raw/master/wiki/fullscreen1.png?raw=True)
 
